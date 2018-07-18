@@ -39,43 +39,43 @@ jsonSource_Elconsumodeaguaseaunserviciopblico_1.addFeatures(features_Elconsumode
                 source:jsonSource_Elconsumodeaguaseaunserviciopblico_1, 
                 style: style_Elconsumodeaguaseaunserviciopblico_1,
     title: 'El consumo de agua sea un servicio público<br />\
-    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_0.png" />  0.0 - 20.0 <br />\
-    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_1.png" />  20.0 - 40.0 <br />\
-    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_2.png" />  40.0 - 60.0 <br />\
-    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_3.png" />  60.0 - 80.0 <br />\
-    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_4.png" />  80.0 - 100.0 <br />'
-        });var format_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2 = new ol.format.GeoJSON();
-var features_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2 = format_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.readFeatures(json_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2, 
+    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Elconsumodeaguaseaunserviciopblico_1_4.png" />  80 - 100 <br />'
+        });var format_NotieneconocimientosobrelaLeydeAguas_2 = new ol.format.GeoJSON();
+var features_NotieneconocimientosobrelaLeydeAguas_2 = format_NotieneconocimientosobrelaLeydeAguas_2.readFeatures(json_NotieneconocimientosobrelaLeydeAguas_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2 = new ol.source.Vector({
+var jsonSource_NotieneconocimientosobrelaLeydeAguas_2 = new ol.source.Vector({
     attributions: [new ol.Attribution({html: '<a href=""></a>'})],
 });
-jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.addFeatures(features_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2);var lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2 = new ol.layer.Vector({
+jsonSource_NotieneconocimientosobrelaLeydeAguas_2.addFeatures(features_NotieneconocimientosobrelaLeydeAguas_2);var lyr_NotieneconocimientosobrelaLeydeAguas_2 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2, 
-                style: style_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2,
-    title: 'Reducir los problemas de agua siendo eficientes con su uso en casa<br />\
-    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2_0.png" />  0.0 - 20.0 <br />\
-    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2_1.png" />  20.0 - 40.0 <br />\
-    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2_2.png" />  40.0 - 60.0 <br />\
-    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2_3.png" />  60.0 - 80.0 <br />\
-    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2_4.png" />  80.0 - 100.0 <br />'
-        });var format_NotieneconocimientosobrelaLeydeAguas_3 = new ol.format.GeoJSON();
-var features_NotieneconocimientosobrelaLeydeAguas_3 = format_NotieneconocimientosobrelaLeydeAguas_3.readFeatures(json_NotieneconocimientosobrelaLeydeAguas_3, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_NotieneconocimientosobrelaLeydeAguas_3 = new ol.source.Vector({
-    attributions: [new ol.Attribution({html: '<a href=""></a>'})],
-});
-jsonSource_NotieneconocimientosobrelaLeydeAguas_3.addFeatures(features_NotieneconocimientosobrelaLeydeAguas_3);var lyr_NotieneconocimientosobrelaLeydeAguas_3 = new ol.layer.Vector({
-                declutter: true,
-                source:jsonSource_NotieneconocimientosobrelaLeydeAguas_3, 
-                style: style_NotieneconocimientosobrelaLeydeAguas_3,
+                source:jsonSource_NotieneconocimientosobrelaLeydeAguas_2, 
+                style: style_NotieneconocimientosobrelaLeydeAguas_2,
     title: 'No tiene conocimiento sobre la Ley de Aguas<br />\
-    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_3_0.png" />  0 - 20 <br />\
-    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_3_1.png" />  20 - 40 <br />\
-    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_3_2.png" />  40 - 60 <br />\
-    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_3_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_3_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_2_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_2_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_2_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_2_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/NotieneconocimientosobrelaLeydeAguas_2_4.png" />  80 - 100 <br />'
+        });var format_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3 = new ol.format.GeoJSON();
+var features_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3 = format_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.readFeatures(json_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3 = new ol.source.Vector({
+    attributions: [new ol.Attribution({html: '<a href=""></a>'})],
+});
+jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.addFeatures(features_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3);var lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3 = new ol.layer.Vector({
+                declutter: true,
+                source:jsonSource_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3, 
+                style: style_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3,
+    title: 'Reducir los problemas de agua siendo eficientes con su uso en casa<br />\
+    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3_4.png" />  80 - 100 <br />'
         });var format_Calidaddeaguaensucantnsehamantenidoigual_4 = new ol.format.GeoJSON();
 var features_Calidaddeaguaensucantnsehamantenidoigual_4 = format_Calidaddeaguaensucantnsehamantenidoigual_4.readFeatures(json_Calidaddeaguaensucantnsehamantenidoigual_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -94,22 +94,22 @@ jsonSource_Calidaddeaguaensucantnsehamantenidoigual_4.addFeatures(features_Calid
     <img src="styles/legend/Calidaddeaguaensucantnsehamantenidoigual_4_4.png" />  80 - 100 <br />'
         });
 
-lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.setVisible(true);lyr_Elconsumodeaguaseaunserviciopblico_1.setVisible(true);lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.setVisible(true);lyr_NotieneconocimientosobrelaLeydeAguas_3.setVisible(true);lyr_Calidaddeaguaensucantnsehamantenidoigual_4.setVisible(true);
-var layersList = [baseLayer,lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0,lyr_Elconsumodeaguaseaunserviciopblico_1,lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2,lyr_NotieneconocimientosobrelaLeydeAguas_3,lyr_Calidaddeaguaensucantnsehamantenidoigual_4];
+lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.setVisible(true);lyr_Elconsumodeaguaseaunserviciopblico_1.setVisible(true);lyr_NotieneconocimientosobrelaLeydeAguas_2.setVisible(true);lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.setVisible(true);lyr_Calidaddeaguaensucantnsehamantenidoigual_4.setVisible(true);
+var layersList = [baseLayer,lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0,lyr_Elconsumodeaguaseaunserviciopblico_1,lyr_NotieneconocimientosobrelaLeydeAguas_2,lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3,lyr_Calidaddeaguaensucantnsehamantenidoigual_4];
 lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Si, pero c': 'Si, pero c', });
 lyr_Elconsumodeaguaseaunserviciopblico_1.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'A14_Públic': 'A14_Públic', });
-lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Ser eficie': 'Ser eficie', });
-lyr_NotieneconocimientosobrelaLeydeAguas_3.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'No': 'No', });
+lyr_NotieneconocimientosobrelaLeydeAguas_2.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'No': 'No', });
+lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Ser eficie': 'Ser eficie', });
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'A10_Se man': 'A10_Se man', });
 lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Si, pero c': 'TextEdit', });
 lyr_Elconsumodeaguaseaunserviciopblico_1.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'A14_Públic': 'TextEdit', });
-lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Ser eficie': 'TextEdit', });
-lyr_NotieneconocimientosobrelaLeydeAguas_3.set('fieldImages', {'Codigo': 'TextEdit', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'TextEdit', 'No': 'TextEdit', });
+lyr_NotieneconocimientosobrelaLeydeAguas_2.set('fieldImages', {'Codigo': 'TextEdit', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'No': 'Hidden', });
+lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Ser eficie': 'TextEdit', });
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'A10_Se man': 'TextEdit', });
 lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Si, pero c': 'no label', });
 lyr_Elconsumodeaguaseaunserviciopblico_1.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'A14_Públic': 'no label', });
-lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_2.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Ser eficie': 'no label', });
-lyr_NotieneconocimientosobrelaLeydeAguas_3.set('fieldLabels', {'Codigo': 'no label', 'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'No': 'no label', });
+lyr_NotieneconocimientosobrelaLeydeAguas_2.set('fieldLabels', {'Codigo': 'no label', 'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', });
+lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Ser eficie': 'no label', });
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'A10_Se man': 'no label', });
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
