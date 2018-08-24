@@ -94,7 +94,7 @@ jsonSource_Calidaddeaguaensucantnsehamantenidoigual_4.addFeatures(features_Calid
     <img src="styles/legend/Calidaddeaguaensucantnsehamantenidoigual_4_4.png" />  80 - 100 <br />'
         });
 
-lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.setVisible(true);lyr_Elconsumodeaguaseaunserviciopblico_1.setVisible(true);lyr_NotieneconocimientosobrelaLeydeAguas_2.setVisible(true);lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.setVisible(true);lyr_Calidaddeaguaensucantnsehamantenidoigual_4.setVisible(true);
+lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.setVisible(false);lyr_Elconsumodeaguaseaunserviciopblico_1.setVisible(false);lyr_NotieneconocimientosobrelaLeydeAguas_2.setVisible(false);lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.setVisible(false);lyr_Calidaddeaguaensucantnsehamantenidoigual_4.setVisible(true);
 var layersList = [baseLayer,lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0,lyr_Elconsumodeaguaseaunserviciopblico_1,lyr_NotieneconocimientosobrelaLeydeAguas_2,lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3,lyr_Calidaddeaguaensucantnsehamantenidoigual_4];
 lyr_Pagarelusodeaguadependiendodelacantidadqueutilicecadafamiliaperoconexcepciones_0.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Si, pero c': 'Si, pero c', });
 lyr_Elconsumodeaguaseaunserviciopblico_1.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'A14_Públic': 'A14_Públic', });
@@ -113,4 +113,5 @@ lyr_Reducirlosproblemasdeaguasiendoeficientesconsuusoencasa_3.set('fieldLabels',
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'A10_Se man': 'no label', });
 lyr_Calidaddeaguaensucantnsehamantenidoigual_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
+	
 });
