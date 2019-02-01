@@ -6,7 +6,7 @@ var style_Reducirproblemasdeagua_0 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    var value = feature.get("Usar productos ecológicos para que no contaminen el agua. (%)");
+    var value = feature.get("q2wHide_Usar produ");
     var labelText = "";
     size = 0;
     var labelFont = "9.75px \'MS Shell Dlg 2\', sans-serif";
@@ -36,13 +36,13 @@ var style_Reducirproblemasdeagua_0 = function(feature, resolution){
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
-                    } else if (value > 60.000000 && value <= 80.000000) {
+                    } else if (value > 60.000000 && value <= 80.400000) {
             style = [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(40,120,184,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
-                    } else if (value > 80.000000 && value <= 100.000000) {
+                    } else if (value > 80.400000 && value <= 100.000000) {
             style = [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(8,48,107,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
