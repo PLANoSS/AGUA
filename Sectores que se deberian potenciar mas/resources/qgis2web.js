@@ -32,6 +32,15 @@ var map = new ol.Map({
 var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
+    var searchLayer = new ol.SearchLayer({
+      layer: lyr_Sectoresquesedeberianpotenciarmas_0,
+      colName: 'Canton',
+      zoom: 10,
+      collapsed: true,
+      map: map
+    });
+
+    map.addControl(searchLayer);
 map.getView().fit([-8886843.491136, -504802.745272, -8486490.275774, 116177.642310], map.getSize());
 
 var NO_POPUP = 0
