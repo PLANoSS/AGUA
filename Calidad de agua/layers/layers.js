@@ -22,7 +22,7 @@ jsonSource_Calidaddeagua_0.addFeatures(features_Calidaddeagua_0);var lyr_Calidad
                 declutter: true,
                 source:jsonSource_Calidaddeagua_0, 
                 style: style_Calidaddeagua_0,
-    title: '<b/>Percepción sobre la calidad de agua:</b><br />El degradado de colores en el mapa indica el porcentaje de<br />personas que <b/>no saben</b> si la calidad de agua en su ciudad<br />ha mejorado o ha empeorado.<br />\<br />\
+    title: '<b/>Percepción sobre la calidad de agua:</b><br />El degradado de colores en el mapa indica el porcentaje de<br />personas que creen que la calidad de agua en su cantón <br />\<b/>se ha mantenido igual.</b><br />\<br />\
     <img src="styles/legend/Calidaddeagua_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Calidaddeagua_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Calidaddeagua_0_2.png" />  40 - 60 <br />\
