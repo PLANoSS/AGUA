@@ -22,7 +22,7 @@ jsonSource_Tipodeserviciodeagua_0.addFeatures(features_Tipodeserviciodeagua_0);v
                 declutter: true,
                 source:jsonSource_Tipodeserviciodeagua_0, 
                 style: style_Tipodeserviciodeagua_0,
-    title: 'Tipo de servicio de agua<br />\
+    title: '<b/>Percepción sobre el uso y servcio de agua:</b><br />El degradado de colores en el mapa indica el porcentaje<br />de personas que creen que el uso de agua para consumo<br />humano y riego debe ser un servicio <b/>público.</b><br /><br />\
     <img src="styles/legend/Tipodeserviciodeagua_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Tipodeserviciodeagua_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Tipodeserviciodeagua_0_2.png" />  40 - 60 <br />\
